@@ -1,11 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Commissioner:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Commissioner:wght@100..900&display=swap');
+
 
 @import url('menu.css');
-@import url('sobremim.css');
+@import url('aboutMe.css');
+@import url('habilities.css');
+@import url('courses.css');
 
 :root{
-    --color-primary-1: #bdbdbd;
-    color-scheme: light dark;
+    --color-primary-1: #F1E9D2;
+    --color-primary-2: #00008B;
+    --color-menu-bg: #C0C0C0;
+    --color-bg: #F5F0E0;
+    /* color-scheme: light dark; */
 }
 
 *{
@@ -15,3 +21,10 @@
     font-family: "Commissioner", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--color-bg);
+}

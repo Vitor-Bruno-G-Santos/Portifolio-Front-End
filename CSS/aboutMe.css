@@ -1,0 +1,65 @@
+#about-me{
+    height: 50vh;
+    scroll-margin-top:  12vh;
+    display: flex;
+    flex-direction: row;
+    /* background-color: brown; */
+    margin: 24vh 2vw 0vh 2vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name-desc{
+    
+    width: 40%;
+    /* margin-left: 10%; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* background-color: red; */
+}
+.dev{
+    font-family: "Audiowide", sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    
+}
+
+.name{
+    font-size: 2.8rem;
+}
+/* .name span{
+    font-size: 5rem;
+
+    font-weight: 500;
+} */
+
+.desc{
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.fa-java{
+    position: absolute;
+    color: var(--color-bg);
+    transition: all 0.5s ease;
+    font-size: 5rem;
+}
+
+.fa-java:hover{
+    color: black;
+}
+
+.box-img{
+    width: 20%;
+    height: auto;
+    right: 100px;
+    
+}
+
+.box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
