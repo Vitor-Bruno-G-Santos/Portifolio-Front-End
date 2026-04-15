@@ -1,0 +1,13 @@
+#sobre-mim{
+    /* background-color: red; */    
+    /* top: 12vh; */
+    height: 50vh;
+    scroll-behavior: smooth;
+    scroll-margin-top:  12vh;
+}
+
+#about-me{
+
+    background-color: red;
+
+}
