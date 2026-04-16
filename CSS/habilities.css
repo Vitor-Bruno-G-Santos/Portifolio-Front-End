@@ -4,9 +4,11 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 3rem;
+    scroll-margin-top: 24vh;
 }
 
 .card{
+    width: 10rem;
     display: flex;
     flex-direction: column;
     gap: .2rem;
@@ -18,13 +20,39 @@
     transition: all 0.2s ease;
     /* border: 2px solid var(--color-primary-2); */
     /* background: red; */
-
+    
 }
 
 .card img{
+    object-fit: contain ;
     height: 8rem;
+    width: auto;
 }
 
 .card:hover{
     transform: scale(1.05);
+}
+
+.outside-bar{
+    border: 0.2rem solid rgba(0, 0, 0, 0.288);
+    border-radius: 5rem;
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.progress-bar{
+    background-color: #00ff2a;
+    height: 1rem;
+    width: 30%;
+    border-radius: 5rem;
+    z-index: 0;
+}
+
+.percentual{
+    position: relative;
+    z-index: 1;
+    
+    font-size: 0.8rem;
+    font-weight: 600;
 }

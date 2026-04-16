@@ -1,3 +1,53 @@
 .courses{
-    height: 100vh;
+    align-items: center;
+    scroll-margin-top: 24vh;
+    margin: 11rem 4rem 0rem 4rem;
+    display: flex;
+    flex-direction: column;
 }
+
+.courses h3{
+    font-family: "Audiowide", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.list-courses{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.items-courses{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem 1.2rem 2rem;
+    border-radius: 1.5rem;
+    box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.box-items{
+    display: flex;
+    text-wrap: wrap;
+    width: 20rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.box-items h4{
+    font-weight: 600;
+}
+
+.box-type-course{
+    justify-content: center;
+}
+
+
+.box-item-last{ 
+    display: flex;
+    justify-content: end;
+    object-fit: contain;
+}
+
