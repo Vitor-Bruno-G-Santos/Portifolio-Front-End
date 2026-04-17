@@ -4,6 +4,7 @@
     margin: 11rem 4rem 0rem 4rem;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .courses h3{
