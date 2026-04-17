@@ -6,6 +6,7 @@
 @import url('habilities.css');
 @import url('courses.css');
 @import url('projects.css');
+@import url('footer.css');
 
 :root{
     --color-primary-1: #F1E9D2;
