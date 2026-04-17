@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Commissioner:wght@100..900&display=swap');
 
 
-@import url('menu.css');
-@import url('aboutMe.css');
-@import url('habilities.css');
-@import url('courses.css');
-@import url('projects.css');
-@import url('footer.css');
+@import url('./menu.css');
+@import url('./aboutMe.css');
+@import url('./habilities.css');
+@import url('./courses.css');
+@import url('./projects.css');
+@import url('./footer.css');
 
 :root{
     --color-primary-1: #F1E9D2;
