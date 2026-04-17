@@ -24,7 +24,15 @@
 }
 
 html{
+    font-size: 80%;
     scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
 }
 
 body{

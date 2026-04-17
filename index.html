@@ -6,6 +6,8 @@
     <title>Vitor Bruno</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="JS/menu.js" defer></script>
 </head>
 <body>
     <header>
@@ -22,16 +24,30 @@
                 <li class="items-list"><a href="#contact">Contato</a></li>
             </ul>
         </div>
+        <button class="mobile-button">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="mobile-menu">
+            <ul class="mobile-list">
+                <li class="items-list"><a href="#about-me">Sobre Mim</a></li>
+                <li class="items-list"><a href="#habilities">Habilidades</a></li>
+                <li class="items-list"><a href="#courses">Formações</a></li>
+                <li class="items-list"><a href="#projects">Projetos</a></li>
+                <li class="items-list"><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
     </header>
     <section id="about-me">
+        
         <div class="name-desc">
-            <h1 class="dev">FULLSTACK DEVELOPER</h1>
+            <h1 class="dev">BACKEND DEVELOPER</h1>
             <h2 class="name"><span>V</span>itor Bruno Gonçalves dos Santos</h2>
-            <p class="desc">Atualmente sou estudante de programação, meu objetivo atual é adiquirir mais conhecimento sobre HTML, CSS, JavaScript, Python e Linux<i class="fa-brands fa-linux"></i>. Tenho muito interesse em fazer projetos  com placas de desenvolvimento como o Raspberry Pi Pico e impressão 3D, principalmente modificar elas.<i class="fa-brands fa-java"></i></p>
+            <p class="desc">Atualmente sou estudante de programação, meu objetivo atual é adiquirir mais conhecimento sobre HTML, CSS, JavaScript, Python e Linux<i class="fa-brands fa-linux"></i>. Tenho muito interesse em fazer projetos  com placas de desenvolvimento como o Raspberry Pi Pico e impressão 3D, principalmente modificar elas.</p>
         </div>
         <div class="box-img">
-            <img src="IMG/Image.png" alt="Minha foto">
+            <img src="IMG/foto.png" alt="Minha foto">
         </div>  
+        
     </section>
     <section class="habilities" id="habilities">    
         <div class="card">
@@ -71,7 +87,7 @@
         <h3>FORMAÇÃO E CURSOS</h3>
         <ul class="list-courses">
             <li class="items-courses">
-                <div class="items-list">
+                <div class="items-list-c">
                     
                     <div class="box-items">
                         <h4>Engenharia de Software</h4>
@@ -90,7 +106,7 @@
                 
             </li>
             <li class="items-courses">
-                <div class="items-list">
+                <div class="items-list-c">
                     
                     <div class="box-items">
                         <h4>Desenvolvimento de Software</h4>

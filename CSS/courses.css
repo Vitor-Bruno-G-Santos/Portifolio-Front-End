@@ -28,7 +28,7 @@
     box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
     contain: paint;
 }
-.items-list{
+.items-list-c{
     padding: 1.2rem 2rem 0.2rem 2rem;
     display: flex;
     flex-direction: row;
@@ -56,6 +56,7 @@
     display: flex;
     justify-content: end;
     object-fit: contain;
+    
 }
 
 .progress-div{
@@ -78,4 +79,19 @@
 .percentual{
     margin-left: 0.2rem     ;
     font-weight: 700;
+}
+
+@media screen and (max-width:600px) {
+    .items-courses{
+        width: 80vw;
+        gap: 1rem;
+    }
+    .items-list-c{
+        flex-direction: column;
+        align-items: center;
+        gap:.5rem;
+    }
+    .box-items{
+        width: auto;
+    }
 }
